@@ -12,6 +12,6 @@ sed 's/\([a-f0-9]* podcast-store \[.*\] [0-9]*\.[0-9]*\.[0-9]*\.[0-9]* [-a-z0-9]
 sed 's/\[\(.*\) \(.*\)\]/\1\2/g' |
 
 # remove one of the (two) copy lines in the log file (they share the same unique ID)
-grep -v 'REST.COPY.OBJECT_GET'
+grep -v 'REST.COPY.OBJECT_GET' | 
 
 sort
