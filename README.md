@@ -5,6 +5,7 @@ It is written specifically to make the logs from our podcast network (www.verbmi
 The goal is to parse the logs into some sort of database and spit out a website that shows the important information.
 
 To run:
+
     Set your home directory:
     ROOT=`pwd`
     export ROOT
