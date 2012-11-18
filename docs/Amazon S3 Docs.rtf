@@ -1,0 +1,298 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Verdana;\f2\fmodern\fcharset0 CourierNewPSMT;
+\f3\fmodern\fcharset0 CourierNewPS-ItalicMT;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red234\green234\blue234;\red193\green193\blue193;
+\red0\green0\blue83;\red251\green0\blue7;\red6\green56\blue126;}
+\margl1440\margr1440\vieww22060\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 \
+Original Source Location:\
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/LogFormat.html\
+(Info about copies and more details available there)\
+\
+\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrs\brdrw20\brdrcf4 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clcbpat3 \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clcbpat3 \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clcbpat3 \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+
+\f1\b \cf2 Field Name\cell 
+\pard\intbl\itap1\pardeftab720
+\cf2 Example Entry\cell 
+\pard\intbl\itap1\pardeftab720
+\cf2 Notes\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+
+\b0 \cf0 Bucket Owner\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 314159b66967d86f031c7249d1d9a8024\
+\
+                9109428335cd0ef1cdc487b4566cb1b\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The canonical user id of the owner of the source bucket.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Bucket\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 mybucket\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The name of the bucket that the request was processed against. If the system receives a malformed request and cannot determine the bucket, the request will not appear in any server access log.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Time\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 [04/Aug/2006:22:34:02 +0000]\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The time at which the request was received. The format, using 
+\f2 strftime()
+\f1  terminology, is 
+\f2 [%d/%b/%Y:%H:%M:%S %z]
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Remote IP\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 72.21.206.5\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The apparent Internet address of the requester. Intermediate proxies and firewalls might obscure the actual address of the machine making the request.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Requester\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 314159b66967d86f031c7249d1d9a80\
+\
+                249109428335cd0ef1cdc487b4566cb1b\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The canonical user id of the requester, or the string "Anonymous" for unauthenticated requests. This identifier is the same one used for access control purposes.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Request ID\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 3E57427F33A59F07\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The request ID is a string generated by Amazon S3 to uniquely identify each request.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Operation\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 SOAP.CreateBucket\
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 or
+\f2 \cf5 \cb3 \
+REST.PUT.OBJECT\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 Either 
+\f2 SOAP.
+\f3\i \cf6 operation
+\f1\i0 \cf0 , 
+\f2 REST.
+\f3\i \cf6 HTTP_method
+\f2\i0 \cf0 .
+\f3\i \cf6 resource_type
+\f1\i0 \cf0  or 
+\f3\i \cf6 WEBSITE
+\f1\i0 \cf0 .
+\f3\i \cf6 HTTP_method
+\f1\i0 \cf0 .
+\f3\i \cf6 resource_type
+\f1\i0 \cf0 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Key\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 /photos/2006/08/puppy.jpg\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The "key" part of the request, URL encoded, or "-" if the operation does not take a key parameter.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Request-URI\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 "GET /mybucket/photos/2006/08/\
+\
+                puppy.jpg?x-foo=bar"\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The Request-URI part of the HTTP request message.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 HTTP status\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 200\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The numeric HTTP status code of the response.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Error Code\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 NoSuchBucket\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The Amazon S3 {\field{\*\fldinst{HYPERLINK "http://docs.amazonwebservices.com/AmazonS3/latest/dev/ErrorCode.html"}}{\fldrslt \cf7 \ul \ulc7 Error Code}}, or "-" if no error occurred.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Bytes Sent\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 2662992\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The number of response bytes sent, excluding HTTP protocol overhead, or "-" if zero.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Object Size\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 3462992\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The total size of the object in question.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Total Time\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 70\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The number of milliseconds the request was in flight from the server's perspective. This value is measured from the time your request is received to the time that the last byte of the response is sent. Measurements made from the client's perspective might be longer due to network latency.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clheight879 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clheight879 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clheight879 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Turn-Around Time\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 10\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The number of milliseconds that Amazon S3 spent processing your request. This value is measured from the time the last byte of your request was received until the time the first byte of the response was sent.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Referrer\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 "http://www.amazon.com/webservices"\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The value of the HTTP Referrer header, if present. HTTP user-agents (e.g. browsers) typically set this header to the URL of the linking or embedding page when making a request.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 User-Agent\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f2 \cf5 \cb3 "curl/7.15.1"\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1 \cf0 \cb1 The value of the HTTP User-Agent header.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrb\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalt \clshdrawnil \clwWidth2340\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth6280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx5760
+\clvertalt \clshdrawnil \clwWidth9940\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt100 \clpadl100 \clpadb100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720
+\cf0 Version Id\cell 
+\pard\intbl\itap1\pardeftab720
+\cf0 3HL4kqtJvjVBH40Nrjfkd\cell 
+\pard\intbl\itap1\pardeftab720
+\cf0 The version ID in the request, or "-" if the operation does not take a 
+\f3\i versionId
+\f1\i0  parameter.\cell \lastrow\row
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0 \cf0 \
+\
+\
+\
+\
+}
