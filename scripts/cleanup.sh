@@ -15,3 +15,6 @@ sed 's/\[\(.*\) \(.*\)\]/\1\2/g' |
 grep -v 'REST.COPY.OBJECT_GET' | 
 
 sort
+
+# Output arrangement
+# Request Id (unique), Bucket Owner, Bucket Name, Time, Remote IP, Requester, Operation, Key, URI, HTTP Status, Error Code, Bytes Sent, Object Size, Total Time, Turnaround Time, Referrer, User-Agent, Version Id, ...?
