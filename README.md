@@ -8,5 +8,6 @@ The goal is to parse the logs into some sort of database and spit out a website 
 To run:
     Set your home directory:
     ROOT=`pwd`
+    export ROOT
     Run the main script:
     scripts/run.sh
