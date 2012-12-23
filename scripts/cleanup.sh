@@ -14,6 +14,8 @@ sed 's/\[\(.*\) \(.*\)\]/\1\2/g' |
 # remove one of the (two) copy lines in the log file (they share the same unique ID)
 grep -v 'REST.COPY.OBJECT_GET' | 
 
+grep -v 'arn:aws:iam::575434945316:user/s3stat' | 
+
 sort
 
 # Output arrangement
