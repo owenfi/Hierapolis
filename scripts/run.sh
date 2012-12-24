@@ -4,6 +4,9 @@
 echo root is $ROOT;
 
 # Put the logs in one file
+#[373][owen.Thesmo: Hierapolis]$ find ./podcast-logs/ -name "*" | wc -l
+# Will need to use find and xargs to avoid terminal count problems
+
 cat $ROOT/sample/logs/* | $ROOT/scripts/cleanup.sh > $ROOT/sample/one-week-full-logs.txt
 
 # Create a databse
