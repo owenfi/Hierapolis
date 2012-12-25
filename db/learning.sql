@@ -23,4 +23,6 @@ select key,size,count(key) from smallish where (transfer == size) group by key;
 /* This gives the episodes, their size and the number of times they were 90%+ downloaded */
 select key,size,count(key) from smallish where (transfer >= 0.9*size) group by key;
 
+/* This gives request count per unique IP for the shows */
+select key,count(distinct ip) from full where key like '%-0__.mp3' group by key order by key;
 
