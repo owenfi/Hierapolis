@@ -14,9 +14,10 @@ sed 's/\[\(.*\) \(.*\)\]/\1\2/g' |
 # remove one of the (two) copy lines in the log file (they share the same unique ID)
 grep -v 'REST.COPY.OBJECT_GET' | 
 
-grep -v 'arn:aws:iam::575434945316:user/s3stat' | 
+grep -v 'arn:aws:iam' |
 
-sort
+sort |
+uniq
 
 # Output arrangement
 # Request Id (unique), Bucket Owner, Bucket Name, Time, Remote IP, Requester, Operation, Key, URI, HTTP Status, Error Code, Bytes Sent, Object Size, Total Time, Turnaround Time, Referrer, User-Agent, Version Id, ...?
