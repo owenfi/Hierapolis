@@ -11,6 +11,9 @@ echo root is $ROOT;
 # Finds all the items from 2012/2013... (to avoid finding non-log files)
 find . -name "*201*" | xargs cat | $ROOT/scripts/cleanup.sh > ./processed-logs.txt
 
+cat ./processed-logs.txt | $ROOT/scripts/chop.sh  > ./processed-logs.csv
+#cat ./processed-logs.txt | $ROOT/scripts/chop.sh | $ROOT/scripts/datefix.sh > ./processed-logs.csv
+
 # Create a databse
 
 #Putting these in comments since I'm running by hand as a I don't yet know how to script sqlite3 actions

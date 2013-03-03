@@ -2,9 +2,10 @@
 
 # Rearrange the date format into something more compatible with sqlite
 INPUT="";
-while read data; do
+#while read data; do
     
-    INPUT=$data;
+    #INPUT=$data;
+    INPUT=$1;
     
     DATE=`echo $INPUT | sed 's/.*,\(.*\),.*,.*,.*,.*/\1/'`;
     
@@ -90,5 +91,5 @@ while read data; do
     # This is the main desired output of the script!
     echo $LEFT,$FORMATTED_DATE,$RIGHT
     
-done
+#done
 
